@@ -1,5 +1,11 @@
 # Image-Colorization
 
+Abstract: Grayscale images are computationally inexpensive to obtain, offer pixel by pixel intensity data and are still frequently used in low end security systems and many other applications where low compression data streaming is required. This topology is often used to ensure that the data acquisition is low power, inexpensive, and reliable. However, in many cases, feature loss occurs due to a lack of color in the images. Robustly estimating the color of grayscale images based on a colorized training set is a valuable tool to have for several applications which include restoring old photographs or interpreting grayscale footage. This challenge cannot be solved through a direct color mapping process since two images with an identical intensity may not have the same ground truth hue. A learning model must be created to predict the corresponding pixel by pixel color values of grayscale images based on a training set of color and their respective gray scale images. Our project quantitatively determines the most probable colors of images extracted from social media based on a trained convolutional neural network model we will develop. We will then analyze performance of our classifier and compare our results with the true colorized images to inspect the value of this process.
+
+Project details can be found at http://www.ee.columbia.edu/~cylin/course/bigdata/projects/ and searching for "Image Colorization Using Convolutional Neural Networks"
+
+The report and paper can be found at http://systemg.research.ibm.com/bigdata/reports/201412/report-201612-52.pdf
+
 Image Colorization contains the following files 
 
 vgg16_mod.py - The model for the CNN that is trained for image colorization. 
